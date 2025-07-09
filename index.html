@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Course Home Page">
+    <meta name="author" content="Daniel Amaral">
+    <script src="./scripts/course.js" defer></script>
+    <script src="./scripts/data.js" defer></script>
+    <script src="./scripts/navigation.js" defer></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="./styles/larger.css">
+    <link rel="stylesheet" href="./styles/small.css">
+    <title>BYUI - WDD 231 Course Home Page</title>
+</head>
+
+<body>
+    <header>
+        <img src="./images/logo.svg" alt="Daniel Amaral Logo" class="logo">
+        <h2 class="student-name">Daniel Amaral - WDD 231</h2>
+        <a href="#" class="hamburger-menu-small">
+            <span class="hamburger-menu-small-icon">📌</span>
+        </a>
+
+    </header>
+    <div class="hamburger-menu-small-container">
+        <a href="#" class="home">Home</a>
+        <a href="#" class="chamber">Chamber</a>
+        <a href="#" class="final">Final</a>
+    </div>
+    <nav class="navigation-menu-larger">
+        <a href="#" class="home">Home</a>
+        <a href="#" class="chamber">Chamber</a>
+        <a href="#" class="final">Final</a>
+    </nav>
+    <main>
+        <h1>Home</h1>
+        <div class="section-container">
+            <section class="about-me-container">
+                <h2>About Me</h1>
+                    <p>I am a full-stack web developer passionate about creating innovative and efficient solutions.
+                        Proactive and self-taught, I constantly seek new challenges and aim to enhance my skills. I have
+                        worked on projects for healthcare units and personal initiatives, demonstrating my ability to
+                        work
+                        both collaboratively and independently.</p>
+            </section>
+            <section class="student-profile-container">
+                <h2>Student Photo</h2>
+                <img src="./images/me.svg" alt="Daniel Amaral" class="student-photo">
+            </section>
+            <section class="web-certificates-container">
+                <h2>Web Certificates Courses</h2>
+                <div class="filter-buttons">
+                    <button class="all" value="all">All</button>
+                    <button class="cse" value="cse">CSE</button>
+                    <button class="wdd" value="wdd">WDD</button>
+                </div>
+                <div class="certificates-grid-container">
+
+                </div>
+                <p class="credit-calculation">Total Credits: 0</p>
+            </section>
+        </div>
+        <div class="social-media-container">
+            <a href="https://www.instagram.com/daniel.amaral.946" target="_blank">
+                <img src="https://logo.svgcdn.com/l/instagram.png" alt="Instagram" class="social-media-icon">
+            </a>
+            <a href="https://github.com/danieldevamaral" target="_blank">
+                <img src="https://logo.svgcdn.com/l/github.png" alt="Github" class="social-media-icon">
+            </a>
+            <a href="https://www.linkedin.com/in/daniel-amaral-946" target="_blank">
+                <img src="https://logo.svgcdn.com/l/linkedin.png" alt="LinkedIn" class="social-media-icon">
+            </a>
+        </div>
+    </main>
+    <footer>
+        <div id="year-location"></div>
+        <div id="lastModified"></div>
+    </footer>
+</body>
+
+</html>

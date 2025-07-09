@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+@media screen and (max-width: 480px) {
+    header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px;
+    }
+
+    .logo {
+        width: 80px;
+    }
+
+    .student-name {
+        font-size: 1rem;
+    }
+
+    .hamburger-menu-small {
+        display: block;
+    }
+
+    .navigation-menu-larger {
+        display: none;
+    }
+
+    .about-me-container {
+        display: block;
+        background-color: #8ECAE6;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-bottom: 10px;
+    }
+
+    .about-me-container h2 {
+        background-color: #023047;
+        color: white;
+        padding: 5px;
+        text-align: center;
+    }
+
+    .student-profile-container {
+        display: block;
+        background-color: #8ECAE6;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-bottom: 10px;
+    }
+
+    .student-profile-container h2 {
+        background-color: #023047;
+        color: white;
+        padding: 5px;
+        text-align: center;
+    }
+
+    .student-profile-container img {
+        width: 100%;
+    }
+
+    .web-certificates-container {
+        display: block;
+    }
+
+    .web-certificates-container h2 {
+        background-color: #023047;
+        color: white;
+        padding: 5px;
+        text-align: center;
+    }
+
+    .filter-buttons {
+        display: flex;
+        justify-content: space-between;
+        margin-left: 2rem;
+        margin-right: 2rem;
+    }
+
+    .filter-buttons button {
+        background-color: #FB8500;
+        color: white;
+        padding: 10px;
+        text-align: center;
+        border-radius: 5px;
+        border: none;
+        cursor: pointer;
+        transition: all 0.3s ease;
+    }
+
+    .filter-buttons button:hover {
+        background-color: #E67700;
+        transform: translateY(-2px);
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    }
+
+    .hamburger-menu-small {
+        text-decoration: none;  
+    }
+
+    .hamburger-menu-small-icon {
+        font-size: 2rem;
+    }
+
+    .hamburger-menu-small-icon:hover {
+        cursor: pointer;
+        transform: scale(1.1);
+        transition: transform 0.3s ease;
+    }
+
+    .hamburger-menu-small-container {
+        display: none;
+    }
+
+    .hamburger-menu-small-container-active {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        background-color: #023047;
+
+    }
+
+    .hamburger-menu-small-container a {
+        color: white;
+        padding: 10px;
+        text-align: center;
+        text-decoration: none !important;
+        font-size: 1rem;
+        font-weight: bold;
+        transition: background-color 0.3s ease;
+    }
+
+    .hamburger-menu-small-container a:hover {
+        background-color: #219EBC;
+    }
+
+    .hamburger-menu-small-container a.active {
+        background-color: #FB8500;
+        color: #023047;
+    }
+
+    .course-card {
+        background-color: #219EBC;
+        color: white;
+        padding: 5px;
+        margin-top: 10px;
+        text-align: center;
+        font-size: 0.8rem;
+    }
+
+    .completed {
+        background-color: #FFB703;
+    }
+
+    .credit-calculation {
+        font-size: 0.8rem;
+        text-align: center;
+        margin-top: 10px;
+
+    }
+
+    .social-media-container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        text-align: center;
+    }
+
+    .social-media-icon {
+        width: 50%;
+        transition: transform 0.3s ease;
+        cursor: pointer;
+    }
+
+    .social-media-icon:hover {
+        transform: scale(1.1);
+    }
+
+    footer {
+        background-color: #023047;
+        color: white;
+        padding: 10px;
+        text-align: center;
+        font-size: 0.8rem;
+        display: block;
+    }
+
+}
